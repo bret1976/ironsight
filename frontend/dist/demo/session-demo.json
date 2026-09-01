@@ -1,0 +1,86 @@
+{
+  "name": "Outdoor range \u00b7 dual cam sample",
+  "stats": {
+    "total_shots": 7,
+    "total_events": 7,
+    "hits": 1,
+    "misses": 0,
+    "unknowns": 6,
+    "not_a_shots": 0,
+    "adjudicated": 1,
+    "adjudicated_rate": 14.3,
+    "accuracy": 100.0,
+    "accuracy_display": "1H/0M of 1 scored \u00b7 6 need review",
+    "accuracy_trust": "low",
+    "needs_review": 6,
+    "human_corrections": 0,
+    "avg_confidence": 0.9,
+    "duration_s": 45.0,
+    "best_split_s": 1.672,
+    "avg_split_s": 3.721
+  },
+  "sync": {
+    "offset_s": 0.0,
+    "offset_frames": 0.0,
+    "peak_ratio": 11.521128331601268,
+    "passed": true,
+    "method": "audio_cross_correlation",
+    "details": {
+      "full": {
+        "offset_s": -0.0,
+        "peak_ratio": 11.521128331601268
+      },
+      "first_half": {
+        "offset_s": 0.0
+      },
+      "second_half": {
+        "offset_s": 0.0
+      },
+      "spread_s": 0.0
+    }
+  },
+  "shots": [
+    {
+      "id": 1,
+      "classification": "UNKNOWN",
+      "t": 2.5,
+      "label": "target"
+    },
+    {
+      "id": 2,
+      "classification": "UNKNOWN",
+      "t": 6.3,
+      "label": "target"
+    },
+    {
+      "id": 3,
+      "classification": "HIT",
+      "t": 10.1,
+      "label": "BLUE PLATE"
+    },
+    {
+      "id": 4,
+      "classification": "UNKNOWN",
+      "t": 13.9,
+      "label": "target"
+    },
+    {
+      "id": 5,
+      "classification": "UNKNOWN",
+      "t": 17.7,
+      "label": "target"
+    },
+    {
+      "id": 6,
+      "classification": "UNKNOWN",
+      "t": 21.5,
+      "label": "target"
+    },
+    {
+      "id": 7,
+      "classification": "UNKNOWN",
+      "t": 25.3,
+      "label": "target"
+    }
+  ]
+}

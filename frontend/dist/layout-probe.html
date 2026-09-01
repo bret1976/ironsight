@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IronSight layout probe</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+    <style>
+      html, body { height: 100%; margin: 0; }
+      #probes { display: flex; flex-direction: column; height: 100%; }
+      #probe-range { height: 50%; min-height: 0; position: relative; }
+      #probe-cockpit { height: 50%; min-height: 0; position: relative; }
+    </style>
+  </head>
+  <body>
+    <div id="probes">
+      <div id="probe-range" class="app-hud layout-range" data-layout="range" data-stage="dual">
+        <header class="hud-top"><span>Range probe</span></header>
+        <div class="hud-body">
+          <aside class="hud-left"><div class="label">Score</div></aside>
+          <section class="hud-stage">
+            <div class="dual-sxs layout-probe-dual">
+              <div class="cam-pane"><div class="cam-empty"><h3>L</h3></div></div>
+              <div class="cam-pane"><div class="cam-empty"><h3>R</h3></div></div>
+            </div>
+          </section>
+          <aside class="hud-right"><div class="label">Shots</div></aside>
+        </div>
+      </div>
+      <div id="probe-cockpit" style="position:relative">
+        <div class="godseye ge-cockpit layout-probe-cockpit" style="background:#123">globe</div>
+      </div>
+    </div>
+  </body>
+</html>
